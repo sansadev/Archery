@@ -1,3 +1,7 @@
+html {
+  font-size: 100%;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -10,27 +14,24 @@ body {
 }
 header {
 
-  background-color: #03a3df;
-
 }
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 8vh;
-  background-color: #1b447f;
+  height: 8rem;
+  background-color: #3175D3;
 }
 .logo {
-  color: rgb(226, 226, 226);
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 20px;
+  padding:5rem;
+  margin-left: 5rem;
 }
 
 .nav-links {
   display: flex;
   justify-content: space-around;
   width: 30%;
+
 
 }
 .nav-links li {
@@ -39,9 +40,11 @@ nav {
 .nav-links a {
   color: rgb(226, 226, 226);
   text-decoration: none;
-  letter-spacing: 3px;
+  letter-spacing: 0.1875rem;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 /* INDEX PAGE STYLING STRUCTURE */
@@ -52,20 +55,20 @@ nav {
   grid-template-rows: 500px auto 500px;
   justify-content: center;
 
-  grid-column-gap: 10px;
+  grid-column-gap: 0.625rem;
 
 }
 .grid-item {
   text-align: center;
-  margin: 5px;;
-  padding: 5px;
+  margin: 0.3125rem;
+  padding: 0.3125rem;
   color: white;
 }
 .h3-index {
   font-family: Arial;
   font-weight: bold;
   color: #1b447f;
-  font-size: 40px;
+  font-size: 2.5rem;
   margin: 1em;
 }
 .index-page-first-paragraph {
@@ -81,7 +84,7 @@ footer {
   height: 200px;
   color: rgb(226, 226, 226);
   font-style: italic;
-  font-size: 24px;
+  font-size: 1.5rem;
 
 }
 footer > div {
@@ -92,14 +95,14 @@ footer > div {
   display: grid;
   grid-template-columns:  auto auto auto;
   grid-template-rows: auto;
-  grid-gap: 50px;
-  padding: 10px;
+  grid-gap: 3.125rem;
+
 
 }
 .about-page-grid-container > div {
   text-align: left;
   padding: 20px 0;
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 .about-page-grid-container > div h2 {
   color: red;
